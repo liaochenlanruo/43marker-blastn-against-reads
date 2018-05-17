@@ -1,0 +1,7 @@
+1.将测序reads文件解压；
+2.将“43primers.txt”，“fq2fa_blastn_primer.pl”和“primer_blast_tongji_main.pl”放于解压目录下；
+3.运行“fq2fa_blastn_primer.pl”；
+4.运行“primer_blast_tongji_main.pl”得到“primer_table.txt”及“p30_p31.txt”；
+5.统计“p30_p31.txt”中是否有p31，不需要看是否有p30;
+6.将“primer_table.txt” 补充完整（添加p31的信息，以及其他未出现的引物列，以便与库一致。
+6.鉴定程序进行鉴定。
